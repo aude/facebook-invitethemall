@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Facebook: InviteThemAll
 // @namespace      https://github.com/aude
-// @author         Asbjørn Apeland (asap@openmailbox.org)
+// @author         Asbjørn Apeland <asap@openmailbox.org>
 // @description    Adds a button to select multiple, thus all, friends in the "invite friends" dialog at Facebook.
 // @include        /^https?://(www\.)?facebook\.com(/.*)?$/
 // @domain         facebook.com
@@ -19,7 +19,7 @@
 // ==/UserScript==
 
 // ==ChangeLog==
-// @history        3.98 [2015.07.27] Going into a slow development phase. Migration to Github.
+// @history        3.98 [2015.07.27] Going into a slow development phase. Migration to GitHub.
 // @history        3.01 [2014.02.26] Bugfixes, more dynamic detection and made info alert dialogs scrollable.
 // @history        3.00 [2013.12.12] Major update. Cleaned up and enhanced code, improved detection methods, improved cross-browser compatibility and added donation dialogs.
 // @history        2.17 [2012.08.02] Hotfix.

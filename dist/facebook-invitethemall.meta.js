@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Facebook: InviteThemAll
 // @namespace      https://github.com/aude
-// @author         Asbjørn Apeland (asap@openmailbox.org)
+// @author         Asbjørn Apeland <asap@openmailbox.org>
 // @description    Adds a button to select multiple, thus all, friends in the "invite friends" dialog at Facebook.
 // @include        /^https?://(www\.)?facebook\.com(/.*)?$/
 // @domain         facebook.com
