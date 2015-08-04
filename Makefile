@@ -1,6 +1,6 @@
 # get name of containing directory
 project := $(shell basename "$(realpath $(shell dirname "$(lastword $(MAKEFILE_LIST))"))")
-version = $(shell grep -oP '\/\/ @version\s+\K\S+' dist/${project}.meta.js)
+version = $(shell grep -oP '\/\/ @version\s+\K\S+' "dist/${project}.meta.js")
 
 dist: dist/${project}.user.js dist/${project}.meta.js
 
