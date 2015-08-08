@@ -1,45 +1,45 @@
 // ==UserScript==
-// @name           Facebook: InviteThemAll
-// @namespace      https://github.com/aude
-// @author         aude
-// @description    Adds a button to select multiple, thus all, friends in the "invite friends" dialog at Facebook.
-// @include        /^https?://(www\.)?facebook\.com(/.*)?$/
-// @domain         facebook.com
-// @match          http://facebook.com/*
-// @match          http://www.facebook.com/*
-// @match          https://facebook.com/*
-// @match          https://www.facebook.com/*
-// @updateURL      https://github.com/aude/facebook-invitethemall.user.js/raw/master/dist/facebook-invitethemall.meta.js
-// @downloadURL    https://github.com/aude/facebook-invitethemall.user.js/raw/master/dist/facebook-invitethemall.user.js
-// @grant          GM_getValue
-// @grant          GM_setValue
-// @grant          GM_openInTab
-// @grant          GM_xmlhttpRequest
-// @version        3.98
+// @name	Facebook: InviteThemAll
+// @namespace	https://github.com/aude
+// @author	aude
+// @description	Adds a button to select multiple, thus all, friends in the "invite friends" dialog at Facebook.
+// @include	/^https?://(www\.)?facebook\.com(/.*)?$/
+// @domain	facebook.com
+// @match	http://facebook.com/*
+// @match	http://www.facebook.com/*
+// @match	https://facebook.com/*
+// @match	https://www.facebook.com/*
+// @updateURL	https://github.com/aude/facebook-invitethemall.user.js/raw/master/dist/facebook-invitethemall.meta.js
+// @downloadURL	https://github.com/aude/facebook-invitethemall.user.js/raw/master/dist/facebook-invitethemall.user.js
+// @grant	GM_getValue
+// @grant	GM_setValue
+// @grant	GM_openInTab
+// @grant	GM_xmlhttpRequest
+// @version	3.98
 // ==/UserScript==
 
 // ==ChangeLog==
-// @history        3.98 [2015.07.27] Going into a slow development phase. Migration to GitHub.
-// @history        3.01 [2014.02.26] Bugfixes, more dynamic detection and made info alert dialogs scrollable.
-// @history        3.00 [2013.12.12] Major update. Cleaned up and enhanced code, improved detection methods, improved cross-browser compatibility and added donation dialogs.
-// @history        2.17 [2012.08.02] Hotfix.
-// @history        2.16 [2012.07.18] Improved friend enumeration method.
-// @history        2.15 [2012.07.13] Added friend enumeration (sloppy version).
-// @history        2.14 [2012.06.28] Increased invite dialog detection redundancy.
-// @history        2.13 [2012.06.21] Made compatible with arrangements one is not attending to.
-// @history        2.12 [2012.06.20] Addressed bug with use of "button" element.
-// @history        2.11 [2011.07.20] Enhanced fade function, plus minor fixes.
-// @history        2.10 [2011.06.23] Added, among much, non-blocking error alerting.
-// @history        2.03 [2011.06.23] Added selection span option.
-// @history        2.02 [2011.06.23] Changed the scrolling method.
-// @history        2.01 [2011.06.05] Hotfix.
-// @history        2.00 [2011.05.20] Major rewrite.
-// @history        1.05 [2011.05.20] Changed updater to usoCheckup.
-// @history        1.04 [2011.03.05] Added selection option ("Select ALL").
-// @history        1.03 [2011.03.05] Removed the (deleted) updater.
-// @history        1.02 [2010.12.08] Added manual update search command and fixed selection bug.
-// @history        1.01 [2010.12.07] Added this awesome script updater, privatized the data, fixed small bugs and re-wrote the button injection method.
-// @history        1.00 [2010.11.04] Initial release.
+// @history	3.98 [2015.07.27] Going into a slow development phase. Migration to GitHub.
+// @history	3.01 [2014.02.26] Bugfixes, more dynamic detection and made info alert dialogs scrollable.
+// @history	3.00 [2013.12.12] Major update. Cleaned up and enhanced code, improved detection methods, improved cross-browser compatibility and added donation dialogs.
+// @history	2.17 [2012.08.02] Hotfix.
+// @history	2.16 [2012.07.18] Improved friend enumeration method.
+// @history	2.15 [2012.07.13] Added friend enumeration (sloppy version).
+// @history	2.14 [2012.06.28] Increased invite dialog detection redundancy.
+// @history	2.13 [2012.06.21] Made compatible with arrangements one is not attending to.
+// @history	2.12 [2012.06.20] Addressed bug with use of "button" element.
+// @history	2.11 [2011.07.20] Enhanced fade function, plus minor fixes.
+// @history	2.10 [2011.06.23] Added, among much, non-blocking error alerting.
+// @history	2.03 [2011.06.23] Added selection span option.
+// @history	2.02 [2011.06.23] Changed the scrolling method.
+// @history	2.01 [2011.06.05] Hotfix.
+// @history	2.00 [2011.05.20] Major rewrite.
+// @history	1.05 [2011.05.20] Changed updater to usoCheckup.
+// @history	1.04 [2011.03.05] Added selection option ("Select ALL").
+// @history	1.03 [2011.03.05] Removed the (deleted) updater.
+// @history	1.02 [2010.12.08] Added manual update search command and fixed selection bug.
+// @history	1.01 [2010.12.07] Added this awesome script updater, privatized the data, fixed small bugs and re-wrote the button injection method.
+// @history	1.00 [2010.11.04] Initial release.
 // ==/ChangeLog==
 
 // ==License==
