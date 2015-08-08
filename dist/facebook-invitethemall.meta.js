@@ -9,8 +9,8 @@
 // @match          http://www.facebook.com/*
 // @match          https://facebook.com/*
 // @match          https://www.facebook.com/*
-// @updateURL      https://github.com/aude/facebook-invitethemall/raw/master/dist/facebook-invitethemall.meta.js
-// @downloadURL    https://github.com/aude/facebook-invitethemall/raw/master/dist/facebook-invitethemall.user.js
+// @updateURL      https://github.com/aude/facebook-invitethemall.user.js/raw/master/dist/facebook-invitethemall.meta.js
+// @downloadURL    https://github.com/aude/facebook-invitethemall.user.js/raw/master/dist/facebook-invitethemall.user.js
 // @grant          GM_getValue
 // @grant          GM_setValue
 // @grant          GM_openInTab
