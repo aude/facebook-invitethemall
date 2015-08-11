@@ -65,11 +65,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
  *
- * Thanks a TONNNN to Douglas Crockford, here especially for JSLint. Who knows where browsers would be today, without this noble soul. Cheers!
+ * Thanks a TONNNN to Douglas Crockford, here especially for JSLint. Who knows
+ * where browsers would be today, without this noble soul. Cheers!
  *
 **/
-
-/** Developed with Notepad++, like a boss **/
 
 (function () {
     'use strict';
